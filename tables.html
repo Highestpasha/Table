@@ -14,6 +14,21 @@
             border: 5px solid dodgerblue;
             padding: 5px;
         }
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            margin: 20px;
+        }
+
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
     </style>
 </head>
 <body>
@@ -43,10 +58,27 @@
     <br><br><br>
 
     </table>
+    <table>
+        <tr>
+            <th>birth</th>
+            <th>Gender</th>
+            <th>age</th>
+        </tr>
+        <tr>
+            <td rowspan="2">twin</td>
+            <td colspan="2">Male</td>
+        </tr>
+        <tr>
+            <td>female</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>child</td>
+            <td colspan="2">Male</td>
+        </tr>
+    </table>
+    
 </body>
 </html>
 
 
-
-<!-- read about colspan and rowspan -->
-<!-- assignment....chessboard,monopoly or scrabble board using html tables -->
